@@ -26,7 +26,7 @@ const Navbar = () => {
         <li onClick={() => handleScroll('banner')}>Skills</li>
         <li onClick={() => handleScroll('experiences')}>Experiences</li>
         <li onClick={() => handleScroll('projects')}>Projects</li>
-        <li onClick={() => handleScroll('contact')}>Contact</li>
+        {/* <li onClick={() => handleScroll('contact')}>Contact</li> */}
       </ul>
     </nav>
   );
